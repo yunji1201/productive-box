@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   update-gist:
+    environment: GH_TOKEN
     runs-on: ubuntu-latest
     steps:
       - name: Update gist
